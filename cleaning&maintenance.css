@@ -907,8 +907,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: transparent;
-   background-image: none;
+   background-image: linear-gradient(to top, #FFFFFF 0%, #FFFFFF 25%, #00C0FF 50%, #1052A8 75%, #1052A8 100%);
    border: 0px solid #CCCCCC;
    border-radius: 0px;
    box-sizing: border-box;
@@ -917,7 +916,7 @@ body
 #LayoutGrid9
 {
    box-sizing: border-box;
-   padding: 0 15px 0 15px;
+   padding: 5px 15px 0 15px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -946,7 +945,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid9:before,
 #LayoutGrid9:after,
@@ -1871,44 +1870,6 @@ body
    margin-right: auto;
    vertical-align: top;
 }
-#wb_Image14
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Image14
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 456px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
-#wb_Image2
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 456px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
 #wb_Image7
 {
    margin: 0;
@@ -1928,13 +1889,6 @@ body
    margin-right: auto;
    vertical-align: top;
 }
-#PageFooter2
-{
-   background-color: #F5F5F5;
-   background-image: none;
-   border-radius: 0px;
-   box-sizing: border-box;
-}
 #wb_Image1
 {
    position: absolute;
@@ -1942,56 +1896,49 @@ body
    top: 3px;
    width: 101px;
    height: 106px;
-   z-index: 36;
+   z-index: 34;
 }
 #Html1
 {
    display: inline-block;
    width: 374px;
    height: 291px;
-   z-index: 24;
-}
-#wb_Image2
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 4;
+   z-index: 22;
 }
 #wb_Image3
 {
    display: inline-block;
    width: 940px;
    height: 406px;
-   z-index: 6;
+   z-index: 5;
 }
 #wb_Image4
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 10;
+   z-index: 9;
 }
 #wb_Image5
 {
    display: inline-block;
    width: 194px;
    height: 206px;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_Image6
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 13;
+   z-index: 12;
 }
 #wb_Image7
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 9;
+   z-index: 8;
 }
 #wb_Heading4
 {
@@ -2000,23 +1947,12 @@ body
    height: 36px;
    z-index: 1;
 }
-#PageFooter2
-{
-   position: absolute;
-   overflow: hidden;
-   text-align: left;
-   left: 0px;
-   top: 3360px;
-   width: 100%;
-   height: 25px;
-   z-index: 37;
-}
 #wb_Image8
 {
    display: inline-block;
    width: 345px;
    height: 392px;
-   z-index: 17;
+   z-index: 16;
 }
 #wb_Heading2
 {
@@ -2030,14 +1966,14 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 18;
+   z-index: 17;
 }
 #wb_Heading3
 {
    display: inline-block;
    width: 827px;
    height: 85px;
-   z-index: 5;
+   z-index: 4;
 }
 #wb_Heading1
 {
@@ -2056,21 +1992,13 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 23;
+   z-index: 21;
 }
-#wb_Image14
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 19;
-}
-@media only screen and (min-width: 480px) and (max-width: 969px)
+@media only screen and (max-width: 480px)
 {
 body
 {
-   background-color: transparent;
-   background-image: none;
+   background-color: #FFFFFF;
 }
 #wb_Text3
 {
@@ -2083,7 +2011,7 @@ body
    font-weight: 400;
    font-size: 20px;
    margin: 0;
-   padding: 0;
+   padding: 5px 0 0 0;
    text-align: center;
    line-height: 25px;
 }
@@ -2563,7 +2491,7 @@ body
 #LayoutGrid9
 {
    height: auto;
-   padding: 0 15px 0 15px;
+   padding: 5px 15px 0 15px;
 }
 #LayoutGrid9 .row
 {
@@ -2707,7 +2635,7 @@ body
 }
 #wb_Heading3
 {
-   width: 463px;
+   width: 450px;
    height: 58px;
    visibility: visible;
    display: inline-block;
@@ -2863,7 +2791,7 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image14
+#wb_Image7
 {
    width: 100%;
    visibility: visible;
@@ -2871,31 +2799,12 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
 }
-#PageFooter2
-{
-   top: 3452px;
-   height: 25px;
-   visibility: visible;
-}
-#PageFooter2
-{
-   width: 100%;
-}
-}
-@media only screen and (max-width: 479px)
+@media only screen and (max-width: 320px)
 {
 body
 {
-   background-color: transparent;
-   background-image: none;
+   background-color: #FFFFFF;
 }
 #wb_Text3
 {
@@ -2908,7 +2817,7 @@ body
    font-weight: 400;
    font-size: 16px;
    margin: 0;
-   padding: 0;
+   padding: 5px 0 0 0;
    text-align: center;
    line-height: 20px;
 }
@@ -3388,7 +3297,7 @@ body
 #LayoutGrid9
 {
    height: auto;
-   padding: 0 15px 0 15px;
+   padding: 5px 15px 0 15px;
 }
 #LayoutGrid9 .row
 {
@@ -3595,11 +3504,11 @@ body
 {
    font-family: "游明朝 Demibold";
    font-weight: 400;
-   font-size: 11px;
+   font-size: 12px;
    margin: 0;
    padding: 0;
    text-align: center;
-   line-height: 13px;
+   line-height: 15px;
 }
 #wb_Image5
 {
@@ -3688,30 +3597,12 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image14
+#wb_Image7
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 0;
    padding: 0;
-}
-#wb_Image2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#PageFooter2
-{
-   top: 3125px;
-   height: 25px;
-   visibility: visible;
-}
-#PageFooter2
-{
-   width: 100%;
 }
 }
