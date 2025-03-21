@@ -1,3 +1,10 @@
+@keyframes unfold
+{
+   0% { transform-origin: ; opacity: 0;  }
+   30% { opacity: 1; transform: rotateX(0deg) scale3d(0.4,0.4,1.0) ;  }
+   60% { transform: rotateX(0deg) scale3d(0.4,1.0,1.0) ;  }
+   100% { transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
 h1, .h1
 {
    font-family: Arial;
